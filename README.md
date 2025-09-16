@@ -78,3 +78,40 @@ Her faz, veri yönetimi (data governance) ve model yönetimi (model governance) 
 Bu sayede teknik riskleri azaltırken, teftiş ve regülasyon gerekliliklerini daha işin en başından sürecin içine dahil ediyoruz.
 
 Sonuç olarak, hem teknik hem de kurumsal uyum açısından güvenilir ve sürdürülebilir bir AI ekosistemi oluşturuyoruz."
+
+
+
+Sunumda Anlatım Metni (1 Dakika)
+
+🎤 Konuşma:
+
+"Projelerimizi kurumsal ölçekte yaygınlaştırırken sadece teknik açıdan değil,
+veri güvenliği, regülasyon uyumu, maliyet kontrolü ve operasyonel sürdürülebilirlik açısından da dikkat etmemiz gereken kritik noktalar var.
+
+İlk olarak veri güvenliği ve regülasyon uyumu.
+On-Prem LLM’de veriler kurum içinde kalıyor, bu da KVKK ve GDPR açısından avantaj sağlıyor.
+Ancak veri erişimi, loglama ve iç denetim süreçleri tamamen bizim sorumluluğumuzda.
+External LLM tarafında ise veri kurum dışına çıktığı için hassas verilerin korunması ve regülasyon gereklilikleri ek kontroller, sözleşmeler ve denetimler gerektiriyor.
+
+İkinci önemli konu performans ve ölçeklenebilirlik.
+Pilot aşamasında 10 kullanıcı için kabul edilebilir olan latency, yaygınlaştırmada 500 kullanıcıya çıkınca sorun yaratabilir.
+On-Prem LLM’de kapasite artırmak zaman ve donanım yatırımı isterken,
+External LLM’de ölçeklenme hızlıdır fakat internet bağlantısına ve sağlayıcı altyapısına bağımlıdır.
+
+Maliyet tarafında ise iki farklı yapı var.
+On-Prem LLM başlangıçta yüksek donanım yatırımı gerektirir ama uzun vadede sabit maliyet avantajı sağlar.
+External LLM’de başlangıç maliyeti düşüktür, hızlı başlama imkanı verir,
+fakat token bazlı sözleşmeler nedeniyle kullanım arttıkça maliyet öngörülenden çok daha hızlı yükselebilir.
+
+Dördüncü kritik alan governance ve teftiş.
+Data governance ve model governance süreçlerini en baştan doğru kurgulamazsak,
+regülasyon kurumlarının taleplerine ve iç denetimlere yanıt vermekte zorlanabiliriz.
+
+Bu nedenle, riskleri yönetmek için hibrit bir strateji öngörüyoruz:
+Hassas verileri On-Prem LLM üzerinde çalıştırırken,
+genel ve düşük riskli kullanımlar için External LLM’i devreye alarak,
+veri güvenliği, performans ve maliyet arasında denge kurmayı hedefliyoruz.
+
+Böylece hem teknik hem operasyonel riskleri minimize ederken,
+kurum çapında sürdürülebilir ve denetlenebilir bir AI altyapısı kurmuş olacağız."
+
